@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .lbl{
+            font-size: 20px;
+            float: left;
+            clear:left;
+            width: 200px;
+            color: black;
+        }
+        label{
+            font-size: 18px;
+            float: left;
+        }
+       input{
+          float: left;
+          font-size: 20px;
+          margin: 5px;
+      }
+      
+      
+      .box{
+          box-shadow: 0px 0px 5px ;
+          height: 600px;
+          width: 45%;
+          padding:20px;
+          background-color: rgb(243, 160, 232);
+          margin-left: 0px;
+         float: left;
+      }
+      .box2{
+          box-shadow: 0px 0px 5px;
+          height:560px ;
+          width: 600px;
+          float: right;
+         background-color: rgb(168, 202, 223);
+         padding: 30px;
+         font-weight: bold;
+         padding-top: 40px;
+         
+
+
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <p> RESTAURANT</p>
+        <a href="contactus.html">Contact Us</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallary</a>
+        <a href="dishes.html">Menu</a>
+
+    </header>
+
+<body>  
+ <div class="box">
+   <center><h2>LOGIN FORM</h2></center>
+    <label for="#" class="lbl">Name</label>
+    <input type="text" name="name" id="name" placeholder="enter name">
+    <br>
+    <label for="#" class="lbl">Lastname</label>
+    <input type="text" name="Address" id="Address" placeholder="enter address">
+    <br>
+    <label for="#" class="lbl">Address</label>
+    <input type="text" name="Address" id="Address" placeholder="enter address">
+    <br>
+    
+    <label for="#" class="lbl">Contact</label>
+    <input type="tel" name=" Contact" id="contact" placeholder="enter contact" >
+    <br>
+    <label for="#" class="lbl">E-mail</label>
+    <input type="email" name="email" id="email" placeholder="enter your email">
+    <br>
+    <label for="#" class="lbl">Password</label>
+    <input type="password" name="password" id="password" placeholder="enter minimum 6 char">
+    <br>
+    <label for="#" class="lbl">Gender</label>
+
+    <input type="radio" name="gender" id="gender">
+    <label for="#">male</label>
+
+    <input type="radio" name="gender" id="gender">
+    <label for="#">Female</label>
+    <br>
+
+    <label for="#" class="lbl">Upload File</label>
+    <input type="file" name="file" id="file">
+    <br>
+    
+    <label for="#" class="lbl">DOB</label>
+    <input type="date" name="DOB" id="DOB">
+    <br>
+    
+    <label for="#" class="lbl">Feedback</label>
+    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+    
+    <br>
+   <button onclick="alt()">Log In</button>
+
+</div> 
+<div class="box2"> 
+  <center><h2> CONTACT US</h2></center> 
+
+    <label for="#" class="lbl">NAME:</label>
+    <p> Supriya</p> 
+    <br>
+    <label for="#" class="lbl">E-MAIL:</label>
+    <p> supriyamuley4@gmail.com</p>
+    <br>
+    <label for="#" class=lbl>ADDRESS:</label>
+    <p>Happy Tummy restaurant,Udhan complex old jalna, Jalna</p>
+    <br>
+    <label for="#" class=lbl>CONTACT:</label>
+    <p> 8999325728</p>
+
+
+</div>
+ 
+
+<script>
+    function alt()
+    {
+        alert(" THANK YOU FOR LOGIN! Contact us if u have need.");
+    }
+</script>
+
+
+</head>
+<body>
+    
+    
+</body>
+</html>
